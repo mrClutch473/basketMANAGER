@@ -17,7 +17,7 @@ iconM = pygame.image.load('imges/bsket_icon.png').convert_alpha()
 pygame.display.set_icon(iconM)
 
 #variables
-game_status = -1
+game_status = 2
 game_plot = 1
 
 namesArr = ["Эндрю Смит", "Майкл Джонсон", "Кристофер Уилсон", "Дэвид Браун", "Джеймс Джонс", "Джошуа Мартин", "Роберт Ли", "Итан Тейлор", "Бенжamин Гарбус", "Гарретт Уайт", "Логан Мартинeз", "Майкл Кларк", "Гарретт Хантер", "Чарльз Линч", "Джозеф Сандерс", "Кевин Риверс", "Уильям Паттерсон", "Дональд Фостер", "Лиам Лонг", "Оливер Тейлор", "Антонио Питерсон", "Натан Мур", "Филипп Диксон", "Закари Хейс", "Тимоти Чейз", "Дерек Леман", "Кайл Стоун", "Сет Говард", "Трейси Мэлоун", "Алан Мейсон", "Роберт Фишер", "Честер Бёрнс", "Эммет Гриффин", "Брэндон Хэллоуэлл", "Дилан Мортон", "Эдвард Розен", "Алан Кук", "Гарри Симмс", "Сэм Келли", "Наоми Джером", "Винсент Карпентер", "Роберто Браун", "Стэнли Джереми", "Фрэнк Дрейк", "Джереми Стоун", "Джосс Диксон", "Саймон Армстронг", "Брайан Шиппер", "Тревор Бойл", "Гарет Адамс", "Глаффер Эванс", "Даллас Хопкинс", "Джонни Мартинес", "Сидни Мартин", "Мерфи Стоуни", "Джимми Хаверэн", "Кингсли Браун", "Джексон Озер", "Энн Мур", "Тэри кепонд", "Гейб Хотели", "Блэз Уинтер", "Патрик Оваль", "Ральф Кинг", "Грег Миллер", "Морис Рейн", "Олдрик Грабов", "Эрик Келли", "Томас Браун", "Крис Генри", "Трэвис Мун", "Николь Дики", "Джон Мэссей", "Гарри Линч", "Брэк Мальчик", "Лоренцо Типпет", "Шотт Мартин", "Альберт Монтгомери", "Джонни Блэк", "Майкл Боуер", "Стефан Шеридэн", "Корм Блэк", "Сквозляк Вогл", "Лерой Симон", "Уилберт Вест", "Стэнли Коваль", "Туфал Бах", "Тед Блэтчли", "Керни Паркер", "Ларри Гайтер", "Шепп Сигал", "Коул Норрис", "Линн Манс", "Тони Фостер", "Марио Корбин", "Долорес Бенсон", "Райан Хейл", "Митчелл Кент", "Гарри тээрэм", "Ужлер Испити", "Тим Гетси", "Гленн Габли", "Митч Рэнит", "Эрни Бодьяк", "Донн Ларсен", "Алан Трейси", "Лерoy Смит", "Ли Брэдли", "Хайден О’то", "Роланд Линч", "Ника Кэри", "Тим Ивейл", "Тельма Хосре", "Гас Мееры", "Таня О’Мэри", "Джексон Райт", "Авери Рэй", "Ллойд О’Тис", "Дэлл Браун", "Агостино Ауле", "Кимбер Кармен", "Глин Колитти", "Энтони Кэри", "Бенджамин Хостей", "Майкл Смит", "Оззи Ролважа", "Эмиль Гаваль", "Фред Уотс", "Ларри Верн", "Роберт Скиммей", "Ноah Уонг", "Патрик Бэнжам", "Райан Тейлор", "Эдгар Ноу", "Бен Смит", "Тим Тосер", "Джаред Доу", "Рональд Кортни", "Омар Каппи", "Дервин Монтгомери", "Деннис Хасгард", "Александр Тейлор", "Ченсел Ворени", "Донни Льюис", "Шон Хан", "Джозеф Гамус", "Пол Риккерт", "Кен Ворожи", "Корин Бенет", "Метт Дики", "Эвант Дорнад", "Аарон Бенджамин", "Роберт Хэйс", "Эксперт Эдвардс", "Джейк Дизель", "Уолтер Недо", "Эрик Туппер", "Джорджсон Браун", "Клер Крейг", "Гарри Пэттерсон", "Бенни Уолли", "Тони Мартин", "Эджи Хрущев", "Ник Третьяков", "Ларри Хаббард", "Эдриан Ву", "Бен Саймон", "Майкл Хиер", "Рэй Мэрил", "Роб Диктат", "Аможер Ван", "Бен Джонсон", "Гост Ким", "Леон Кук", "Райан Серчев", "Джордан Мартин", "Терри Срезин", "Лонни Мартинес", "Райан Бороз", "Дмирал Халил", "Майк Чарльз", "Тим Браун", "Богдан Якушен"]
@@ -25,6 +25,7 @@ namesArr = ["Эндрю Смит", "Майкл Джонсон", "Кристоф�
 posesArr = ["PG", "SG", "SF", "PF", "C"]
 
 end_time_l = 5
+end_time_l_gm3 = 4.3
 
 my_teamArr_pos = [0] * 6
 my_teamArr = []
@@ -92,6 +93,17 @@ loading_img3 = pygame.image.load('imges/loading_scr/loading_icn3.png').convert_a
 loading_arr = [loading_img0,loading_img1,loading_img2,loading_img3,loading_img]
 cur_load_id = 0
 
+#LOADING_SCREEN_GM3
+loading_img_3_0 = pygame.image.load('imges/loading_scr/loading_icn_gm3_0.png').convert_alpha()
+loading_img_3_1 = pygame.image.load('imges/loading_scr/loading_icn_gm3_1.png').convert_alpha()
+loading_img_3_2 = pygame.image.load('imges/loading_scr/loading_icn_gm3_2.png').convert_alpha()
+loading_img_3_3 = pygame.image.load('imges/loading_scr/loading_icn_gm3_3.png').convert_alpha()
+loading_img_3_4 = pygame.image.load('imges/loading_scr/loading_icn_gm3_4.png').convert_alpha()
+loading_img_3_5 = pygame.image.load('imges/loading_scr/loading_icn_gm3_5.png').convert_alpha()
+loading_img_3_6 = pygame.image.load('imges/loading_scr/loading_icn_gm3_6.png').convert_alpha()
+loading_img_3_7 = pygame.image.load('imges/loading_scr/loading_icn_gm3_7.png').convert_alpha()
+loading_arr_gm3 = [loading_img_3_0,loading_img_3_1,loading_img_3_2,loading_img_3_3,loading_img_3_4,loading_img_3_5,loading_img_3_6,loading_img_3_7]
+
 #START_LOADING_SCREEN
 start_loading_img = pygame.image.load('imges/start_load/start_load_img.png').convert_alpha()
 start_loading_img0 = pygame.image.load('imges/start_load/start_load_img0.png').convert_alpha()
@@ -131,6 +143,9 @@ cardsOvrlCRDFontBald = pygame.font.Font('fonts/ShantellSans-VariableFont_BNCE,IN
 cardsOvrlCRDFontBald.set_bold(True)
 cardsOvrlCRDSecFontBald = pygame.font.Font('fonts/ShantellSans-VariableFont_BNCE,INFM,SPAC,wght.ttf', 28)
 cardsOvrlCRDSecFontBald.set_bold(True)
+complTeamFontBald = pygame.font.Font('fonts/ShantellSans-VariableFont_BNCE,INFM,SPAC,wght.ttf', 25)
+complTeamFontBald.set_bold(True)
+complTeamFontSec = pygame.font.Font('fonts/ShantellSans-VariableFont_BNCE,INFM,SPAC,wght.ttf', 20)
 
 #DRAFT MENU
 square_mon = pygame.Surface((170, 70))
@@ -342,16 +357,12 @@ def add_to_my_team(dr_card, pr_rec, pr_x, pr_y, pr_rec_col, pr_id):
         return False
 
 #PLAYER_CARD
-confirm_player_img = pygame.image.load('imges/player_card/conf_player_icn_small.jpg').convert_alpha()
-reject_player_img = pygame.image.load('imges/player_card/rejct_player_icn_small.jpg').convert_alpha()
 back_player_img = pygame.image.load('imges/player_card/back_player_icn_small.png').convert_alpha()
 confirm_player_img1 = pygame.image.load('imges/player_card/conf_player_icn1_small.png').convert_alpha()
 reject_player_img1 = pygame.image.load('imges/player_card/rejct_player_icn1_small.png').convert_alpha()
-confirm_player_rect = confirm_player_img.get_rect(topleft=(1020,775))
-reject_player_rect = reject_player_img.get_rect(topleft=(920, 775))
-back_player_rect = reject_player_img.get_rect(topleft=(100, 775))
-confirm_player_rect1 = confirm_player_img.get_rect(topleft=(1020,775))
-reject_player_rect1 = reject_player_img.get_rect(topleft=(920, 775))
+back_player_rect = back_player_img.get_rect(topleft=(100, 775))
+confirm_player_rect1 = confirm_player_img1.get_rect(topleft=(1020,775))
+reject_player_rect1 = reject_player_img1.get_rect(topleft=(920, 775))
 
 player_card_open_check = False
 
@@ -470,7 +481,6 @@ def blit_pos_card_sec(t_pos, t_pos_x, t_pos_y, t_w, t_h):
 
     pygame.draw.rect(screen, col, (t_pos_x, t_pos_y, t_w, t_h))
 
-
 #EFFECTS
     #BLUR
 # def blur_region(region, amount):
@@ -481,6 +491,63 @@ def blit_pos_card_sec(t_pos, t_pos_x, t_pos_y, t_w, t_h):
 blacked_screen_img = pygame.image.load('imges/effects/blacked_screen(1200_950).png').convert_alpha()
 ef_blacked_screen_check = False
 
+def blit_stat_card(t_stat, t_x, t_y):
+    col = (102, 0, 0)
+    if 10 <= t_stat < 20:
+        col = (153, 0, 0)
+    elif 20 <= t_stat < 25:
+        col = (175, 0, 0)
+    elif 25 <= t_stat < 30:
+        col = (204, 0, 0)
+    elif 30 <= t_stat < 35:
+        col = (225, 0, 0)
+    elif 35 <= t_stat < 40:
+        col = (255, 0, 0)
+    elif 40 <= t_stat < 45:
+        col = (255, 50, 0)
+    elif 45 <= t_stat < 50:
+        col = (255, 90, 0)
+    elif 50 <= t_stat < 55:
+        col = (255, 130, 0)
+    elif 55 <= t_stat < 60:
+        col = (255, 170, 0)
+    elif 60 <= t_stat < 65:
+        col = (255, 210, 0)
+    elif 65 <= t_stat < 70:
+        col = (255, 255, 0)
+    elif 70 <= t_stat < 75:
+        col = (128, 255, 0)
+    elif 75 <= t_stat < 80:
+        col = (0, 255, 0)
+    elif 80 <= t_stat < 85:
+        col = (0, 200, 0)
+    elif 85 <= t_stat < 90:
+        col = (0, 150, 0)
+    elif 90 <= t_stat < 95:
+        col = (0, 100, 0)
+    elif 95 <= t_stat < 100:
+        col = (0, 50, 0)
+    else:
+        print("ERROR №4: UNKNOWN COLOR_STAT")
+
+    pygame.draw.circle(screen, (0, 0, 0), (t_x, t_y), 55)
+    pygame.draw.circle(screen, col, (t_x, t_y), 50)
+    pygame.draw.rect(screen, (120, 120, 125), (t_x-55, t_y, 110, 55))
+    pygame.draw.rect(screen, (0, 0, 0), (t_x - 80, t_y, 160, 3))
+    t_stat_text = cardsOvrlCRDFontBald.render(str(t_stat), True, (255, 255, 255))
+    t_stat_text2 = cardsOvrlCRDFontBald.render(str(t_stat), True, (128, 128, 128))
+    screen.blit(t_stat_text2, (t_x - 15, t_y - 37))
+    screen.blit(t_stat_text, (t_x - 17, t_y - 39))
+
+
+#COMPL TEAM VISUAL
+complText1 = complTeamFontBald.render("Ваша команда укомплектована! Готовы продолжить?", True, (46, 46, 48))
+complText2 = complTeamFontSec.render("Да, меня все устраивает", True, (46, 46, 48))
+complText3 = complTeamFontSec.render("Нет, я хочу подумать ещё", True, (46, 46, 48))
+confirm_player_img = pygame.image.load('imges/player_card/conf_player_icn_small.jpg').convert_alpha()
+reject_player_img = pygame.image.load('imges/player_card/rejct_player_icn_small.jpg').convert_alpha()
+confirm_player_rect = confirm_player_img.get_rect(topleft=(385, 660))
+reject_player_rect = reject_player_img.get_rect(topleft=(735, 660))
 
 #ERORS
 my_team_text_fault_max_1 = erorFont.render("В команде не хватает места!", True, (128, 0, 0))
@@ -506,7 +573,7 @@ main_tracks_arr = [tr1,tr2,tr3,tr4,tr5, tr6, tr7, tr8, tr9]
 cur_track = random.randint(0, len(main_tracks_arr)-1)
 print("cur_track: " + str(cur_track))
 
-vol_music = 0.1
+vol_music = 0
 prev_vol_music = 0.1
 mute_check = False
 
@@ -521,6 +588,10 @@ check_start_load_gm_not1 = True
 er_maxVal_check = False
 er_money_check = False
 tap_card_TorD = 0
+compl_team = False
+
+delay_gm_3_check = True
+cur_load_id_3 = 0
 
 while running: #ГЛАВНЫЙ ЦИКЛ --------------------------------------------------------------------------------------------------------------------------------------
     for jj in main_tracks_arr:
@@ -601,6 +672,13 @@ while running: #ГЛАВНЫЙ ЦИКЛ ----------------------------------------
         if start_button_rect.collidepoint(pygame.mouse.get_pos()) and pygame.mouse.get_pressed()[0]:
             game_status = 0
     elif game_status == 2: # МЕНЮ ДРАФТА-----------------------------------------------------------------------------------
+
+        #CHECK FOR COMPL TEAM
+        compl_team = True
+        for ttt in my_teamArr_pos:
+            if ttt == 0:
+                compl_team = False
+
         moneyOUT = str(str(money) + ' $')
         money_text = valFont.render(moneyOUT, True, (46, 46, 48))
         if not check_window_gm_2:
@@ -614,44 +692,85 @@ while running: #ГЛАВНЫЙ ЦИКЛ ----------------------------------------
         #screen.blit(square_mon, (730,0))
         screen.blit(money_text, (1040, 0))
         screen.blit(my_team_text, (510, 100))
-        screen.blit(draft_text, (560, 390))
 
-        if er_maxVal_check: # ПРОВЕРКА ОШИБОК
-            screen.blit(my_team_text_fault_max_1, (420, 10))
-            screen.blit(my_team_text_fault_max_2, (370, 40))
-        else:
-            if er_money_check:
-                screen.blit(my_team_text_fault_money_1, (420, 10))
-                screen.blit(my_team_text_fault_money_2, (350, 40))
 
-        if draft_teamArr:
-            for el in draft_teamArr:
-                pygame.draw.rect(screen, (135, 135, 145), el.get('rect'))
-                pygame.draw.rect(screen, (112, 112, 121), (el.get('x')+5,el.get('y')+10,115,185))
-                screen.blit(el.get('icon_mini'), (el.get('x')+12,el.get('y')+10))
+        if not compl_team:
 
-                screen.blit(cardsFontBald.render("Имя:", True, (0,0,0)), (el.get('x')+40,el.get('y')+80))
-                screen.blit(cardsFontBald.render("Возраст:", True, (0, 0, 0)), (el.get('x') + 25, el.get('y') + 140))
+            screen.blit(draft_text, (560, 390))
 
-                nsplit = el.get('name').split()
-                n1 = cardsFont.render(nsplit[0], True, (46, 46, 48))
-                n2 = cardsFont.render(nsplit[1], True, (46, 46, 48))
-                screen.blit(n1, (el.get('x')+20,el.get('y')+100))
-                screen.blit(n2, (el.get('x') + 20, el.get('y') + 120))
+            if er_maxVal_check: # ПРОВЕРКА ОШИБОК
+                screen.blit(my_team_text_fault_max_1, (420, 10))
+                screen.blit(my_team_text_fault_max_2, (370, 40))
+            else:
+                if er_money_check:
+                    screen.blit(my_team_text_fault_money_1, (420, 10))
+                    screen.blit(my_team_text_fault_money_2, (350, 40))
 
-                screen.blit(cardsFont.render(str(el.get('age')), True, (46, 46, 48)), (el.get('x') + 52, el.get('y') + 165))
+            if draft_teamArr:
+                for el in draft_teamArr:
+                    pygame.draw.rect(screen, (135, 135, 145), el.get('rect'))
+                    pygame.draw.rect(screen, (112, 112, 121), (el.get('x')+5,el.get('y')+10,115,185))
+                    screen.blit(el.get('icon_mini'), (el.get('x')+12,el.get('y')+10))
 
-                if el.get('prise') > 99:
-                    screen.blit(cardsPriseFont.render((str(el.get('prise'))+'$'), True, (46, 46, 48)),(el.get('x') + 20, el.get('y') - 35))
-                elif el.get('prise') > 9:
-                    screen.blit(cardsPriseFont.render((str(el.get('prise')) + '$'), True, (46, 46, 48)),
-                                (el.get('x') + 30, el.get('y') - 35))
-                else:
-                    screen.blit(cardsPriseFont.render((str(el.get('prise')) + '$'), True, (46, 46, 48)),
-                                (el.get('x') + 40, el.get('y') - 35))
+                    screen.blit(cardsFontBald.render("Имя:", True, (0,0,0)), (el.get('x')+40,el.get('y')+80))
+                    screen.blit(cardsFontBald.render("Возраст:", True, (0, 0, 0)), (el.get('x') + 25, el.get('y') + 140))
 
-                blit_pos_draft(el.get('pos'), el.get('x')+40,el.get('y')+190)
-                blit_ovrl_draft(el.get('ovrl'), el.get('x')+115,el.get('y')+5, 1)
+                    nsplit = el.get('name').split()
+                    n1 = cardsFont.render(nsplit[0], True, (46, 46, 48))
+                    n2 = cardsFont.render(nsplit[1], True, (46, 46, 48))
+                    screen.blit(n1, (el.get('x')+20,el.get('y')+100))
+                    screen.blit(n2, (el.get('x') + 20, el.get('y') + 120))
+
+                    screen.blit(cardsFont.render(str(el.get('age')), True, (46, 46, 48)), (el.get('x') + 52, el.get('y') + 165))
+
+                    if el.get('prise') > 99:
+                        screen.blit(cardsPriseFont.render((str(el.get('prise'))+'$'), True, (46, 46, 48)),(el.get('x') + 20, el.get('y') - 35))
+                    elif el.get('prise') > 9:
+                        screen.blit(cardsPriseFont.render((str(el.get('prise')) + '$'), True, (46, 46, 48)),
+                                    (el.get('x') + 30, el.get('y') - 35))
+                    else:
+                        screen.blit(cardsPriseFont.render((str(el.get('prise')) + '$'), True, (46, 46, 48)),
+                                    (el.get('x') + 40, el.get('y') - 35))
+
+                    blit_pos_draft(el.get('pos'), el.get('x')+40,el.get('y')+190)
+                    blit_ovrl_draft(el.get('ovrl'), el.get('x')+115,el.get('y')+5, 1)
+        else: #ВЫВОД УКОМПЛЕКТОВОНОСТИ КОМАНДЫ
+            pygame.draw.rect(screen, (120, 120, 125), (247, 547, 706, 306), border_radius=30)
+            pygame.draw.rect(screen, (135, 135, 145), (250, 550, 700, 300), border_radius=30)
+            pygame.draw.rect(screen, (120, 120, 125), (255, 555, 690, 290), border_radius=30)
+            pygame.draw.rect(screen, (135, 135, 145), (258, 558, 684, 284), border_radius=30)
+            screen.blit(complText1, (280, 590))
+            pygame.draw.rect(screen, (46, 46, 48), (380, 655, 90, 90), border_radius=5)
+            pygame.draw.rect(screen, (46, 46, 48), (730, 655, 90, 90), border_radius=5)
+            screen.blit(reject_player_img, (385,660))
+            screen.blit(confirm_player_img, (735, 660))
+
+            if reject_player_rect.collidepoint(pygame.mouse.get_pos()) and compl_team:
+                screen.blit(complText2, (660, 770))
+            if confirm_player_rect.collidepoint(pygame.mouse.get_pos()) and compl_team:
+                screen.blit(complText3, (300, 770))
+
+            if pygame.mouse.get_pressed()[0]:
+                if confirm_player_rect.collidepoint(pygame.mouse.get_pos()) and pygame.mouse.get_pressed()[0] and compl_team:
+                    if not click_check:
+                        print(my_teamArr)
+                        set_player_stat(my_teamArr[5], 5)
+                        player_card_open_check = False
+                        click_check_pl = True
+                        print("del_arr indx: " + str(cur_pl_el.get('id')))
+                        my_teamArr_pos[cur_pl_el.get('id')] = 0
+                        back_to_draft(cur_pl_el, cur_pl_el.get('prev_rect'), cur_pl_el.get('prev_x'),
+                                      cur_pl_el.get('prev_y'),
+                                      cur_pl_el.get('prev_rect_colider'), cur_pl_el.get('prev_id'))
+                        my_teamArr.pop(cur_pl_idx)
+                        money += cur_pl_el.get('prise')
+                        tap_card_TorD = 0
+                if reject_player_rect.collidepoint(pygame.mouse.get_pos()) and pygame.mouse.get_pressed()[0] and compl_team:
+                    if not click_check:
+                        game_status = 3
+                        click_check = True
+            else:
+                click_check = False
 
         if my_teamArr:
             for el in my_teamArr:
@@ -680,10 +799,10 @@ while running: #ГЛАВНЫЙ ЦИКЛ ----------------------------------------
             screen.blit(blacked_screen_img, (0, 0))
             pygame.draw.rect(screen, (178, 178, 185), (80,80,1040,790))
 
-            screen.blit(confirm_player_img1,(1020,775))
-            screen.blit(back_player_img, (100, 775))
+            screen.blit(confirm_player_img1,(1020,780))
+            screen.blit(back_player_img, (100, 780))
             if tap_card_TorD == 2:
-                screen.blit(reject_player_img1, (920, 775))
+                screen.blit(reject_player_img1, (920, 780))
 
             pygame.draw.rect(screen, (120, 120, 125), (100, 100, 300, 220))
             screen.blit(cur_pl_ic, (100,102))
@@ -719,48 +838,52 @@ while running: #ГЛАВНЫЙ ЦИКЛ ----------------------------------------
             else:
                 screen.blit(pl_pos_text2, (972, 260))
 
-            pygame.draw.rect(screen, (120, 120, 125), (100, 340, 1000, 420))
+            pygame.draw.rect(screen, (120, 120, 125), (100, 340, 1000, 430))
 
             screen.blit(pl_stat_text, (550, 350))
 
-            screen.blit(pl_ovrl_text1, (185, 420))
-            blit_ovrl_draft(cur_pl_ovrl, 415, 435, 2)
+            screen.blit(pl_ovrl_text1, (185, 410))
+            blit_ovrl_draft(cur_pl_ovrl, 415, 425, 2)
 
 
-            screen.blit(pl_height_text1, (490, 420))
-            screen.blit(pl_slash_text5, (555, 425))
-            screen.blit(pl_height_text2, (590, 420))
+            screen.blit(pl_height_text1, (490, 410))
+            screen.blit(pl_slash_text5, (555, 415))
+            screen.blit(pl_height_text2, (590, 410))
 
-            screen.blit(pl_weight_text1, (790, 420))
-            screen.blit(pl_slash_text6, (835, 425))
-            screen.blit(pl_weight_text2, (880, 420))
+            screen.blit(pl_weight_text1, (790, 410))
+            screen.blit(pl_slash_text6, (835, 415))
+            screen.blit(pl_weight_text2, (880, 410))
 
-            screen.blit(pl_stat1_text1, (250, 520))
-            screen.blit(pl_stat1_text2, (290, 560))
 
-            screen.blit(pl_stat2_text1, (245, 620))
-            screen.blit(pl_stat2_text2, (290, 660))
+            screen.blit(pl_stat1_text1, (240, 480))
+            blit_stat_card(cur_pl_stat[0], 293, 580)
 
-            screen.blit(pl_stat3_text1, (455, 520))
-            screen.blit(pl_stat3_text2, (490, 560))
+            screen.blit(pl_stat2_text1, (240, 610))
+            blit_stat_card(cur_pl_stat[1], 293, 710)
 
-            screen.blit(pl_stat4_text1, (455, 620))
-            screen.blit(pl_stat4_text2, (490, 660))
+            screen.blit(pl_stat3_text1, (455, 480))
+            blit_stat_card(cur_pl_stat[2], 503, 580)
 
-            screen.blit(pl_stat5_text1, (660, 520))
-            screen.blit(pl_stat5_text2, (690, 560))
 
-            screen.blit(pl_stat6_text1, (625, 620))
-            screen.blit(pl_stat6_text2, (690, 660))
+            screen.blit(pl_stat4_text1, (460, 610))
+            blit_stat_card(cur_pl_stat[3], 503, 710)
 
-            screen.blit(pl_stat7_text1, (830, 520))
-            screen.blit(pl_stat7_text2, (880, 560))
+            screen.blit(pl_stat5_text1, (660, 480))
+            blit_stat_card(cur_pl_stat[4], 703, 580)
 
-            screen.blit(pl_stat8_text1, (860, 620))
-            screen.blit(pl_stat8_text2, (880, 660))
+
+            screen.blit(pl_stat6_text1, (625, 610))
+            blit_stat_card(cur_pl_stat[5], 703, 710)
+
+            screen.blit(pl_stat7_text1, (840, 480))
+            blit_stat_card(cur_pl_stat[6], 903, 580)
+
+            screen.blit(pl_stat8_text1, (870, 610))
+            blit_stat_card(cur_pl_stat[7], 903, 710)
+
 
             if pygame.mouse.get_pressed()[0]: # ОБРАБОТЧИК НАЖАТИЯ МЫШИ В КАРТОЧКЕ ИГРОКА
-                if reject_player_rect.collidepoint(pygame.mouse.get_pos()) and pygame.mouse.get_pressed()[0] and tap_card_TorD == 2:
+                if reject_player_rect1.collidepoint(pygame.mouse.get_pos()) and pygame.mouse.get_pressed()[0] and tap_card_TorD == 2:
                     if not click_check_pl:
                         player_card_open_check = False
                         click_check_pl = True
@@ -771,7 +894,7 @@ while running: #ГЛАВНЫЙ ЦИКЛ ----------------------------------------
                         my_teamArr.pop(cur_pl_idx)
                         money += cur_pl_el.get('prise')
                         tap_card_TorD = 0
-                if confirm_player_rect.collidepoint(pygame.mouse.get_pos()) and pygame.mouse.get_pressed()[0]:
+                if confirm_player_rect1.collidepoint(pygame.mouse.get_pos()) and pygame.mouse.get_pressed()[0]:
                     if not click_check_pl:
                         if tap_card_TorD == 1:
                             if (money - cur_pl_el.get('prise')) >= 0:
@@ -804,7 +927,7 @@ while running: #ГЛАВНЫЙ ЦИКЛ ----------------------------------------
         else: # ОБРАБОТЧИК НАЖАТИЯ МЫШИ В МЕНЮ ДРАФТА
             if pygame.mouse.get_pressed()[0]:
                 for (i,el) in enumerate(draft_teamArr):
-                    if el.get('rect_colider').collidepoint(pygame.mouse.get_pos()) and pygame.mouse.get_pressed()[0]:
+                    if el.get('rect_colider').collidepoint(pygame.mouse.get_pos()) and pygame.mouse.get_pressed()[0] and not compl_team:
                         if not click_check:
                             er_maxVal_check = False
                             er_money_check = False
@@ -813,7 +936,7 @@ while running: #ГЛАВНЫЙ ЦИКЛ ----------------------------------------
                             click_check = True
                             tap_card_TorD = 1
                 for (i,el) in enumerate(my_teamArr):
-                    if el.get('rect_colider').collidepoint(pygame.mouse.get_pos()) and pygame.mouse.get_pressed()[0]:
+                    if el.get('rect_colider').collidepoint(pygame.mouse.get_pos()) and pygame.mouse.get_pressed()[0] and not compl_team:
                         if not click_check:
                             er_maxVal_check = False
                             er_money_check = False
@@ -824,6 +947,44 @@ while running: #ГЛАВНЫЙ ЦИКЛ ----------------------------------------
             else:
                 click_check = False
 
+    elif game_status == 3:  # ЗАГРУЗОЧНЫЙ ЭКРАН ПЕРЕД GAMEMODE 4-----------------------------------------------------------------------------------
+        screen.fill((112, 128, 144))
+
+        screen.blit(menu_logo, (300, 100))
+        screen.blit(loading_arr_gm3[cur_load_id_3], (315, 500))
+        if delay_gm_3_check:
+            start_time_l = time.time()
+            delay_gm_3_check = False
+
+        current_time_l = float(time.time() - start_time_l)
+        if 0.5 <= current_time_l < 1.0:
+            cur_load_id_3 = 1
+        elif 1.0 <= current_time_l < 1.5:
+            cur_load_id_3 = 2
+        elif 1.5 <= current_time_l < 2.0:
+            cur_load_id_3 = 3
+        elif 2.0 <= current_time_l < 2.5:
+            cur_load_id_3 = 4
+        elif 2.5 <= current_time_l < 3.0:
+            cur_load_id_3 = 5
+        elif 3.0 <= current_time_l < 3.5:
+            cur_load_id_3 = 6
+        elif 3.5 <= current_time_l < 4.0:
+            cur_load_id_3 = 7
+
+        if current_time_l > end_time_l_gm3:
+            main_tracks_arr[cur_track].stop()
+            cur_track += 1
+            if cur_track == len(main_tracks_arr):
+                cur_track = 0
+            music_cheked = False
+            game_status = 4
+
+    elif game_status == 4:  # ЗАГРУЗОЧНЫЙ ЭКРАН ПЕРЕД GAMEMODE 4-----------------------------------------------------------------------------------
+        if not music_cheked:
+            main_tracks_arr[cur_track].play()
+            music_cheked = True
+        screen.fill((47, 79, 79))
 
 
     pygame.display.update()

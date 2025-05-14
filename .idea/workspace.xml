@@ -4,30 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abcd77c6-c7e8-408b-a0e7-171a42ef1c2d" name="Changes" comment="v1.02 (add music system and new loading screens and lots new feaches)">
+    <list default="true" id="abcd77c6-c7e8-408b-a0e7-171a42ef1c2d" name="Changes" comment="v2.01 (add player cards, add stat generate for cards, add showing ovrl and pos, reworked add and back to draft func,add game plots, add errors print, add physical stat generate, reworked a lot of visual content)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consepts/tasks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/consepts/tasks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imges/effects/blacked_screen(1200_950).png" beforeDir="false" afterPath="$PROJECT_DIR$/imges/effects/blacked_screen(1200_950).png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imges/players/pl1.png" beforeDir="false" afterPath="$PROJECT_DIR$/imges/players/pl1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imges/players/pl10.png" beforeDir="false" afterPath="$PROJECT_DIR$/imges/players/pl10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imges/players/pl11.png" beforeDir="false" afterPath="$PROJECT_DIR$/imges/players/pl11.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imges/players/pl12.png" beforeDir="false" afterPath="$PROJECT_DIR$/imges/players/pl12.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imges/players/pl13.png" beforeDir="false" afterPath="$PROJECT_DIR$/imges/players/pl13.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imges/players/pl14.png" beforeDir="false" afterPath="$PROJECT_DIR$/imges/players/pl14.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imges/players/pl15.png" beforeDir="false" afterPath="$PROJECT_DIR$/imges/players/pl15.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imges/players/pl16.png" beforeDir="false" afterPath="$PROJECT_DIR$/imges/players/pl16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imges/players/pl17.png" beforeDir="false" afterPath="$PROJECT_DIR$/imges/players/pl17.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imges/players/pl18.png" beforeDir="false" afterPath="$PROJECT_DIR$/imges/players/pl18.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imges/players/pl19.png" beforeDir="false" afterPath="$PROJECT_DIR$/imges/players/pl19.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imges/players/pl2.png" beforeDir="false" afterPath="$PROJECT_DIR$/imges/players/pl2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imges/players/pl20.png" beforeDir="false" afterPath="$PROJECT_DIR$/imges/players/pl20.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imges/players/pl3.png" beforeDir="false" afterPath="$PROJECT_DIR$/imges/players/pl3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imges/players/pl4.png" beforeDir="false" afterPath="$PROJECT_DIR$/imges/players/pl4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imges/players/pl5.png" beforeDir="false" afterPath="$PROJECT_DIR$/imges/players/pl5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imges/players/pl6.png" beforeDir="false" afterPath="$PROJECT_DIR$/imges/players/pl6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imges/players/pl7.png" beforeDir="false" afterPath="$PROJECT_DIR$/imges/players/pl7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imges/players/pl8.png" beforeDir="false" afterPath="$PROJECT_DIR$/imges/players/pl8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imges/players/pl9.png" beforeDir="false" afterPath="$PROJECT_DIR$/imges/players/pl9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imges/player_card/conf_player_icn_small.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imges/player_card/conf_player_icn_small.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imges/player_card/rejct_player_icn_small.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imges/player_card/rejct_player_icn_small.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -176,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746141768510</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="v2.01 (add player cards, add stat generate for cards, add showing ovrl and pos, reworked add and back to draft func,add game plots, add errors print, add physical stat generate, reworked a lot of visual content)">
+      <option name="closed" value="true" />
+      <created>1747027268069</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1747027268069</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -185,6 +174,7 @@
     <MESSAGE value="v0.02(first build)" />
     <MESSAGE value="v1.01 (first worcked version (add manipulate system for draft and my_team, also create money system))" />
     <MESSAGE value="v1.02 (add music system and new loading screens and lots new feaches)" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.02 (add music system and new loading screens and lots new feaches)" />
+    <MESSAGE value="v2.01 (add player cards, add stat generate for cards, add showing ovrl and pos, reworked add and back to draft func,add game plots, add errors print, add physical stat generate, reworked a lot of visual content)" />
+    <option name="LAST_COMMIT_MESSAGE" value="v2.01 (add player cards, add stat generate for cards, add showing ovrl and pos, reworked add and back to draft func,add game plots, add errors print, add physical stat generate, reworked a lot of visual content)" />
   </component>
 </project>
